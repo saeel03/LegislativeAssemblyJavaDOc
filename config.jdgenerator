@@ -1,0 +1,85 @@
+==== CONFIGS ====		
+{
+    "base_path": "c:\\Users\\Student\\Desktop\\Saeel\\Java",
+    "out": "c:\\Users\\Student\\Desktop\\Saeel\\Java\\javadoc",
+    "javadoc_executable": "C:\\Program Files\\Java\\jdk-22\\bin\\javadoc.exe",
+    "exclude": [],
+    "raw_params": ""
+}
+
+==== COMMAND ====
+"C:\Program Files\Java\jdk-22\bin\javadoc.exe" 
+	-sourcepath "c:\Users\Student\Desktop\Saeel\Java" 
+	-d "c:\Users\Student\Desktop\Saeel\Java\javadoc" 
+	"c:\Users\Student\Desktop\Saeel\Java\Assembly.java"
+	"c:\Users\Student\Desktop\Saeel\Java\Bill.java"
+	"c:\Users\Student\Desktop\Saeel\Java\Main.java"
+	"c:\Users\Student\Desktop\Saeel\Java\Member.java"
+	"c:\Users\Student\Desktop\Saeel\Java\Session.java"
+
+
+==== JAVADOC OUTPUT ====
+Loading source file c:\Users\Student\Desktop\Saeel\Java\Assembly.java...
+Loading source file c:\Users\Student\Desktop\Saeel\Java\Bill.java...
+Loading source file c:\Users\Student\Desktop\Saeel\Java\Main.java...
+Loading source file c:\Users\Student\Desktop\Saeel\Java\Member.java...
+Loading source file c:\Users\Student\Desktop\Saeel\Java\Session.java...
+Constructing Javadoc information...
+Creating destination directory: "c:\Users\Student\Desktop\Saeel\Java\javadoc\"
+Building index for all the packages and classes...
+Standard Doclet version 22.0.1+8-16
+Building tree for all the packages and classes...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\Assembly.html...
+c:\Users\Student\Desktop\Saeel\Java\Assembly.java:32: warning: no @param for member
+    public void addMember(Member member) {
+                ^
+c:\Users\Student\Desktop\Saeel\Java\Assembly.java:41: warning: no @param for session
+    public void addSession(Session session) {
+                ^
+c:\Users\Student\Desktop\Saeel\Java\Assembly.java:50: warning: no @param for bill
+    public void addBill(Bill bill) {
+                ^
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\Bill.html...
+c:\Users\Student\Desktop\Saeel\Java\Bill.java:34: warning: no @return
+    public String getBillId() {
+                  ^
+c:\Users\Student\Desktop\Saeel\Java\Bill.java:12: warning: no comment
+    public Bill(String billId, String title, String description, String status) {
+           ^
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\Main.html...
+c:\Users\Student\Desktop\Saeel\Java\Main.java:12: warning: no @param for args
+    public static void main(String[] args) {
+                       ^
+c:\Users\Student\Desktop\Saeel\Java\Main.java:7: warning: use of default constructor, which does not provide a comment
+public class Main {
+       ^
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\Member.html...
+c:\Users\Student\Desktop\Saeel\Java\Member.java:34: warning: no @return
+    public String getName() {
+                  ^
+c:\Users\Student\Desktop\Saeel\Java\Member.java:12: warning: no comment
+    public Member(String name, String constituency, String party, String role) {
+           ^
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\Session.html...
+c:\Users\Student\Desktop\Saeel\Java\Session.java:23: warning: no @param for bill
+    public void addBill(Bill bill) {
+                ^
+c:\Users\Student\Desktop\Saeel\Java\Session.java:43: warning: no @return
+    public String getSessionId() {
+                  ^
+c:\Users\Student\Desktop\Saeel\Java\Session.java:13: warning: no comment
+    public Session(String sessionId, String date) {
+           ^
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\package-summary.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\package-tree.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\overview-tree.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\allclasses-index.html...
+Building index for all classes...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\allpackages-index.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\index-all.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\search.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\index.html...
+Generating c:\Users\Student\Desktop\Saeel\Java\javadoc\help-doc.html...
+12 warnings
+
+
